@@ -53,3 +53,51 @@ HouseHunt is a full-stack web application designed to simplify the property rent
 
 ## 📁 Project Structure
 
+  HouseHunt/
+  ├── backend/ # Express API with MongoDB
+  │ ├── models/ # Mongoose Schemas
+  │ ├── routes/ # API routes
+  │ └── controllers/ # Business logic
+  ├── frontend/ # React Frontend
+  │ ├── components/ # Reusable UI Components
+  │ ├── modules/ # Role-based Modules
+  │ ├── services/ # Axios API service files
+  │ ├── App.js # Main App Routing
+  │ └── App.css # Theme and global styles
+  ├── public/
+  ├── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🧩 Prerequisites
+- Node.js and npm
+- MongoDB (local or Atlas)
+- Git
+
+### 🔧 Backend Setup
+```bash
+cd backend
+npm install
+Create a .env file in the backend/ folder with the following:
+
+
+PORT=8001
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+Start the server:
+
+
+npm start
+🌐 Frontend Setup
+
+cd frontend
+npm install
+npm start
+Your app will now be running at http://localhost:3000/.
+
+
+
+
+
