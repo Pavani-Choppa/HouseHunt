@@ -85,10 +85,10 @@ Create a .env file in the backend/ folder with the following:
   MONGO_URI=your_mongodb_connection_string
   JWT_SECRET=your_jwt_secret
 
-#Start the server:
+###Start the server:
   npm start
 
-#🌐 Frontend Setup
+###🌐 Frontend Setup
 
   cd frontend
   npm install
